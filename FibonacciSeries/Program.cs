@@ -3,8 +3,8 @@
 namespace FibonacciSeries {
   class Program {
     static void Main(string[] args) {
-      int[] fibonacci = CreateFibonacciSeries(5);
-
+      int[] fibonacci = CreateFibonacciSeries(11);
+        // this commend is just a test
       for (int i = 0; i < fibonacci.Length; i++) {
         Console.Out.Write(fibonacci[i]);
         Console.Out.Write(" ");
